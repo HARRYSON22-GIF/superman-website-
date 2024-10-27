@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+table, th, td {
+    border: 1px solid;
+  }
+ P.table, th, td{
+    background-color: aqua;
+    border: rgb(51, 43, 58);
+    justify-content: center;
+    align-items: center;
+ }
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+p{
+    color: #c2132b;
+    text-align: center;
+}
+.p ol{
+    color: #c2132b;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    text-overflow: ellipsis;
+}
+.footer{
+    text-align: center;
+    justify-content: baseline;
+}
+.navbar ul{
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(298, 93%, 44%, 0.247);
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.4s;
+
+}
+.navbar a{
+    color: rgba(26, 197, 11, 0.473);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+}
+.navbar a:hover{
+    background-color: hsla(310, 80%, 45%, 0.247);
+}
+.navbar li{
+    float: left ;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #33a11d;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #812626;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #170b5f;
+    font-family: Arial;
+}
